@@ -22,7 +22,7 @@ Performance
 
 <airplane mass="1929" >
 
-  <approach speed="35" aoa="4">
+  <approach speed="35" aoa="5">
     <control-setting axis="/controls/engines/engine[0]/throttle" value="0.18"/>
     <control-setting axis="/controls/engines/engine[0]/mixture" value="1.0"/> 
   </approach>
@@ -43,12 +43,12 @@ Performance
         chord="1.812" 
         length="6.216" 
         taper="1"
-        incidence="2.25"
+        incidence="1.25"
         twist="0.25"
-        dihedral="0"
-        sweep="5" 
-        camber="0.113">
-        <stall aoa="12" width="3.0" peak="1.125"/>
+        dihedral="0.8"
+        sweep="2" 
+        camber="0.103">
+        <stall aoa="14" width="4.0" peak="2.25"/>
         <flap1 start="0.495" end="1" lift="1.315" drag="1.31"/>
       
         <control-input axis="/controls/flight/aileron" control="FLAP1" split="true"/>
@@ -63,12 +63,12 @@ Performance
         chord="1.693" 
         length="5.0" 
         taper="1" 
-        incidence="2.25"
+        incidence="1.25"
         twist="0.15"
-        dihedral="0"
-        sweep="5"
-        camber="0.113">
-        <stall aoa="12" width="3.0" peak="1.125"/>
+        dihedral="0.8"
+        sweep="0"
+        camber="0.103">
+        <stall aoa="14" width="4.0" peak="2.25"/>
   </mstab>
 
     <hstab x="-5.27" y="0.359" z="-0.12" 
@@ -193,8 +193,8 @@ Performance
   </gear>
 
 
-  <!-- Fuel: 162 lbs -->
-  <tank x="-0.28" y="0" z="-0.59" capacity="162"/>
+  <!-- Fuel: 290 lbs -->
+  <tank x="-0.28" y="0" z="-0.59" capacity="290"/>
 
   <!-- pilot weight -->
   <weight x="-0.2021" y="0.0" z="-0.126" mass-prop="/sim/weight[0]/weight-lb"/>

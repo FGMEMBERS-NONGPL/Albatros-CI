@@ -11,7 +11,7 @@
 
   <!-- ALTIMETER -->
   <model>
-    <path>Aircraft/Aviatik-CI/Models/instruments/alt/alt.xml</path>
+    <path>Aircraft/Albatros-CI/Models/instruments/alt/alt.xml</path>
     <offsets>
       <x-m>  -0.315 </x-m>
       <y-m>  0.294 </y-m>
@@ -21,7 +21,7 @@
   
   <!-- TURN -->
   <model>
-    <path>Aircraft/Aviatik-CI/Models/instruments/turn/turn.xml</path>
+    <path>Aircraft/Albatros-CI/Models/instruments/turn/turn.xml</path>
     <offsets>
       <x-m> -0.315 </x-m>
       <y-m> 0.000 </y-m>
@@ -31,7 +31,7 @@
   
   <!-- FUEL SELECTOR -->
   <model>
-    <path>Aircraft/Aviatik-CI/Models/instruments/fuelselector/fuelselector.xml</path>
+    <path>Aircraft/Albatros-CI/Models/instruments/fuelselector/fuelselector.xml</path>
     <offsets>
       <x-m> -0.314 </x-m>
       <y-m> -0.407 </y-m>
@@ -41,7 +41,7 @@
   
   <!-- PUMP SELECTOR -->
   <!-- <model>
-    <path>Aircraft/Aviatik-CI/Models/instruments/pump/pump.xml</path>
+    <path>Aircraft/Albatros-CI/Models/instruments/pump/pump.xml</path>
     <offsets>
       <x-m> 0.000 </x-m>
       <y-m> 0.370 </y-m>
@@ -51,7 +51,7 @@
   
   <!-- DIVERS -->
   <model>
-    <path>Aircraft/Aviatik-CI/Models/instruments/divers/divers.xml</path>
+    <path>Aircraft/Albatros-CI/Models/instruments/divers/divers.xml</path>
     <offsets>
       <x-m> 0.59 </x-m>
       <y-m> 0.230 </y-m>
@@ -61,7 +61,7 @@
 
      <!-- RPM -->
   <model>
-    <path>Aircraft/Aviatik-CI/Models/instruments/RPM/tach.xml</path>
+    <path>Aircraft/Albatros-CI/Models/instruments/RPM/tach.xml</path>
     <offsets>
       <x-m>  -0.313 </x-m>
       <y-m>  -0.294 </y-m>
@@ -74,7 +74,7 @@
 
   <!-- Wing Compass -->
   <model>
-    <path>Aircraft/Aviatik-CI/Models/instruments/compass/wingcompass.xml</path>
+    <path>Aircraft/Albatros-CI/Models/instruments/compass/wingcompass.xml</path>
     <offsets>
       <x-m>  -0.4643 </x-m>
       <y-m>  -1.01681 </y-m>
@@ -87,7 +87,7 @@
   
     <!-- Compass -->
   <model>
-    <path>Aircraft/Aviatik-CI/Models/instruments/compass/compass.xml</path>
+    <path>Aircraft/Albatros-CI/Models/instruments/compass/compass.xml</path>
     <offsets>
       <x-m>  -0.415 </x-m>
       <y-m>  -0.283 </y-m>
@@ -100,7 +100,7 @@
 
   <!-- ASI -->
   <model>
-    <path>Aircraft/Aviatik-CI/Models/instruments/ASI/asi.xml</path>
+    <path>Aircraft/Albatros-CI/Models/instruments/ASI/asi.xml</path>
     <offsets>
       <x-m>  -0.310 </x-m>
       <y-m>  0.00 </y-m>

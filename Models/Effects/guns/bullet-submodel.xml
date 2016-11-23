@@ -5,7 +5,7 @@
 
   <submodel>
     <name>bullet splash</name>
-    <model>Aircraft/AVRO-504-D/Models/Effects/guns/impact.xml</model>
+    <model>Aircraft/Albatros-CI/Models/Effects/guns/impact.xml</model>
     <speed>0</speed>
     <repeat>false</repeat>
     <delay>0</delay>
